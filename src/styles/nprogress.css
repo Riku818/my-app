@@ -1,0 +1,16 @@
+/* nprogress.css */
+#nprogress .bar {
+    background: #29d;
+    /* バーの色 */
+    height: 2px;
+    /* バーの高さ */
+}
+
+#nprogress .peg {
+    box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+}
+
+#nprogress .spinner {
+    display: none;
+    /* スピナーは非表示に */
+}

@@ -34,3 +34,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# node_modulesファイルを無視する
+node_modules
+# .nextディレクトリを無視する
+.next/
+# .DS_Storeファイルを無視する
+.DS_Store
+# .env.localファイルを無視する
+.env*
+# .envファイルを無視する
+.env
+# outディレクトリを無視する
+out/
+dist/
+build/
+.clasp*.json
+*.tgz
